@@ -1,0 +1,26 @@
+{
+  "name": "ts3-19-sorting",
+  "version": "1.0.0",
+  "description": "More on design patterns, little project to implement sorting",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deeebeee3/ts3-19-sorting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deeebeee3/ts3-19-sorting/issues"
+  },
+  "homepage": "https://github.com/deeebeee3/ts3-19-sorting#readme",
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1"
+  }
+}
